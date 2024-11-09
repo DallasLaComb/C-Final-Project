@@ -1,1 +1,30 @@
-# C-Final-Project
+# GTK C SNAKE GUI Game
+
+A simple C GUI game built with GTK.
+
+## Requirements
+
+1. **GTK Development Libraries**: Install with:
+
+    ```bash
+    sudo apt-get install libgtk-3-dev
+    ```
+
+2. **Compiler**: Ensure `gcc` is installed.
+
+## How to Compile and Run
+
+1. **Compile**:
+
+    ```bash
+    gcc -o game main.c `pkg-config --cflags --libs gtk+-3.0`
+    ```
+
+2. **Run**:
+
+    ```bash
+    ./game
+    ```
+## License
+
+MIT License
