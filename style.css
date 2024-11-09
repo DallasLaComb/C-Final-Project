@@ -1,0 +1,40 @@
+/* Window background color */
+window {
+    background-color: #f7f7f7;
+}
+
+/* Title styling */
+label.title {
+    font-size: 2em; /* Larger font size for title */
+    font-weight: bold;
+    color: #228B22; /* Dark green */
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+button {
+    font-size: 1.2em;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #0066cc;
+    color: white;
+}
+
+/* Make button text color blue */
+button * {
+    color: #0000ff; /* Blue text */
+}
+
+button:hover {
+    background-color: #004a99;
+}
+
+button:active {
+    background-color: #003366;
+}
+
+button:disabled {
+    background-color: #dddddd;
+    color: #aaaaaa;
+}
