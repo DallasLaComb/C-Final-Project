@@ -7,7 +7,7 @@ A simple C GUI game built with GTK.
 1. **GTK Development Libraries**: Install with:
 
     ```bash
-    sudo apt-get install libgtk-3-dev
+    sudo apt-get install libgtk-4-dev
     ```
 
 2. **Compiler**: Ensure `gcc` is installed.
@@ -17,7 +17,7 @@ A simple C GUI game built with GTK.
 1. **Compile**:
 
     ```bash
-    gcc -o game main.c `pkg-config --cflags --libs gtk+-3.0`
+    gcc -o game main.c `pkg-config --cflags --libs gtk4`
     ```
 
 2. **Run**:
@@ -25,6 +25,10 @@ A simple C GUI game built with GTK.
     ```bash
     ./game
     ```
+
 ## License
 
 MIT License
+
+## GTK 4 DOCUMENTATION
+[https://docs.gtk.org/gtk4/](https://docs.gtk.org/gtk4/)
