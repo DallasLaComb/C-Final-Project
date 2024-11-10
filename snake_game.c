@@ -18,7 +18,7 @@ typedef enum {
     MENU_HOWTOPLAY,
     MENU_EXIT
 } MenuOption;
-
+//testing
 typedef enum {
     DIR_UP,
     DIR_DOWN,
