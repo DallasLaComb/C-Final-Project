@@ -1,34 +1,39 @@
-# GTK C SNAKE GUI Game
+# SDL2 C Snake Game
 
-A simple C GUI game built with GTK.
+A simple Snake game written in C using SDL2.
 
 ## Requirements
 
-1. **GTK Development Libraries**: Install with:
+1. **Install SDL2 Development Libraries**:
 
     ```bash
-    sudo apt-get install libgtk-4-dev
+    sudo apt-get install libsdl2-dev libsdl2-ttf-dev
     ```
 
-2. **Compiler**: Ensure `gcc` is installed.
+2. **Ensure `gcc` is installed**:
+
+    ```bash
+    sudo apt-get install gcc
+    ```
 
 ## How to Compile and Run
 
-1. **Compile**:
+1. **Compile the Game**:
 
     ```bash
-    gcc -o game main.c `pkg-config --cflags --libs gtk4`
+    gcc -o snake_game snake_game.c -lSDL2 -lSDL2_ttf
     ```
 
-2. **Run**:
+2. **Run the Game**:
 
     ```bash
-    ./game
+    ./snake_game
     ```
 
 ## License
 
-MIT License
+This project is licensed under the MIT License.
 
-## GTK 4 DOCUMENTATION
-[https://docs.gtk.org/gtk4/](https://docs.gtk.org/gtk4/)
+## SDL2 Documentation
+
+For further reference, visit the [SDL2 Documentation](https://wiki.libsdl.org/).
