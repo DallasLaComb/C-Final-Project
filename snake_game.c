@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 #define SCREEN_WIDTH 640
 #define SCREEN_HEIGHT 480
 #define BLOCK_SIZE 20
@@ -12,7 +11,7 @@
 typedef struct {
     int x, y;
 } Point;
-
+//Testing
 typedef enum {
     MENU_START,
     MENU_SETTINGS,
