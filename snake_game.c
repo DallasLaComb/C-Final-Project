@@ -11,14 +11,12 @@
 typedef struct {
     int x, y;
 } Point;
-//Testing
 typedef enum {
     MENU_START,
     MENU_SETTINGS,
     MENU_HOWTOPLAY,
     MENU_EXIT
 } MenuOption;
-//testing
 typedef enum {
     DIR_UP,
     DIR_DOWN,

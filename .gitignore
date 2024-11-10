@@ -1,3 +1,7 @@
 /change_directory.txt
+<<<<<<< HEAD
 # Path: change_directory.txt is for Dallas LaComb to remember how to change directories in the terminal when using WSL, which is a Linux terminal emulator for Windows.
 .idea
+=======
+# Path: change_directory.txt is for Dallas LaComb to remember how to change directories in the terminal when using WSL, which is a Linux terminal emulator for Windows.
+>>>>>>> e9e1226469c1df2570a2d4ad1ea5db7e698eb802
